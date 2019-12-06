@@ -1,0 +1,12 @@
+server:
+  port: 9898
+  servlet:
+    context-path: /logins
+
+
+
+wx:
+  token_url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=%s&secret=%s&code=%s&grant_type=authorization_code
+  appid: wx7287a60bb700fd21
+  secret: 1ef8755f92bebae8ad7bab432ba29cbf
+  user_url: https://api.weixin.qq.com/sns/userinfo?access_token=%s&openid=%s
